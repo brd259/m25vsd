@@ -39,10 +39,15 @@ body {
 }
 
 #happy-birthday {
+    font-family: "Rochester", cursive;
+    font-weight: 400;
+    font-style: normal;
     font-size: 3em;
     font-weight: bold;
-    color: gold;
-    text-shadow: 2px 2px 10px yellow;
+    color: #ff477e;
+    /* #F26A8D; */
+    text-shadow: 2px 2px 10px #F49CBB;
+    /* #F49CBB; */
     animation: sparkle 1s infinite alternate;
 }
 
@@ -53,6 +58,10 @@ body {
 
 .line {
     font-size: 1.2em;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
     color: #660033;
     white-space: nowrap;
     overflow: hidden;
